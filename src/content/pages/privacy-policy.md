@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros,
 
 #### Privacy Policy Changes
 
-1. Sll the Themefisher items are designed to be with the latest , We check all
-2. comments that threaten or harm the reputation of any person or organization
-3. personal information including, but limited to, email addresses, telephone numbers
-4. Any Update come in The technology Customer will get automatic Notification.
+1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros
+2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros
+3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros
+4. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros

@@ -120,7 +120,7 @@ const Search = ({ searchList }: Props) => {
               </h1>
               <p>
                 {inputVal.length < 1
-                  ? "Search for posts by title, category, or tag."
+                  ? "Search for posts by title, category, or tag. (COMING SOON!)"
                   : "We couldn't find what you searched for. Try searching again."}
               </p>
             </div>
