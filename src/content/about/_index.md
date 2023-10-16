@@ -1,16 +1,23 @@
 ---
-title: "Meet the Minds Behind Optimism AI"
+title: "Meet the Mind Behind Optimism AI"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/avatar.png"
 draft: false
 ---
 
-At the heart of Optimism AI is a dedicated team of professionals, each bringing over 5+ years of industry experience to the table. Comprising adept developers, visionary designers, and meticulous managers, we unite under a shared passion for innovation and excellence. Our diverse backgrounds and expertise converge into a single vision: to revolutionize the Optimism Blockchain landscape. With every endeavor, we aim to blend our vast experience with unwavering commitment, ensuring that Optimism AI remains a paragon of quality in the ecosystem.
+Meet the visionary mind behind Optimism AI, Asharib Ali. With over 3 years of extensive experience in development, designs, and management, Asharib is the driving force behind the mission to revolutionize the Optimism Blockchain landscape.
 
-# Ultimate Experience
-      - Experienced Professionals: With over 5+ years in the industry, our team members are seasoned experts who have been a part of countless successful projects and product launches.
-      - Diverse Skillsets: From proficient developers who craft seamless codes, to creative designers who bring visions to life, and meticulous managers who ensure everything runs like clockwork.
-      - Boundless Passion: What sets us apart is our unwavering passion. We're not just building a product; we're shaping the future of the Optimism Blockchain ecosystem.
-      - Unified Vision: While we hail from diverse backgrounds and specializations, we're united by a shared vision—to make Optimism Blockchain more accessible and comprehensible to all.
-      - Commitment to Excellence: Excellence is our standard. Every line of code, every pixel, and every strategy is executed with precision, ensuring Optimism AI stands out as a beacon of quality.
+## Ultimate Experience
+
+- **Experienced Professional:** With over 3+ years of industry experience, Asharib is a seasoned expert who has played a pivotal role in numerous successful projects and product launches.
+
+- **Diverse Skillsets:** Asharib is a versatile professional, proficient in both development, design, and management, ensuring that every aspect of Optimism AI is meticulously crafted and executed.
+
+- **Boundless Passion:** What sets Asharib apart is an unwavering passion for the Optimism Blockchain ecosystem. It's not just about building a product; it's about shaping the future of the entire ecosystem.
+
+- **Unified Vision:** Asharib brings together diverse backgrounds and expertise under a shared vision: to make Optimism Blockchain more accessible and comprehensible for all.
+
+- **Commitment to Excellence:** Excellence is the standard for Asharib Ali. Every line of code, every pixel, and every strategy is executed with precision, ensuring that Optimism AI stands out as a beacon of quality under Asharib's leadership.
+
+## Get in Touch with me for open-source development!
