@@ -22,7 +22,7 @@ const Home = () => {
 
   const chatbotScript = `
   <script type="module">
-  import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+  import Chatbot from "https://cdn.jsdelivr.net/gh/AsharibAli/FlowiseChatEmbed@latest/dist/web.js"
   Chatbot.init({
       chatflowid: "64ff8147-14ea-41e9-af99-ae8968c68d5c",
       apiHost: "https://flowise-r1c3.onrender.com",
