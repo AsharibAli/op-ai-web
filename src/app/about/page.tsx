@@ -4,7 +4,7 @@ import { getListPage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
-import Chat from "../homepage/page";
+import App from "../homepage/page";
 const About = () => {
   const data: RegularPage = getListPage("about/_index.md");
   const { frontmatter, content } = data;
@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <>
-      <Chat />
+      <App />
       <SeoMeta
         title={title}
         meta_title={meta_title}

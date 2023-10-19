@@ -3,7 +3,7 @@ import { getListPage } from "@/lib/contentParser";
 import PageHeader from "@/partials/PageHeader";
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
-import Chat from "../homepage/page";
+import App from "../homepage/page";
 
 const Contact = async () => {
   const data: RegularPage = getListPage("contact/_index.md");
@@ -13,7 +13,7 @@ const Contact = async () => {
 
   return (
     <>
-      <Chat />
+      <App />
       <SeoMeta
         title={title}
         meta_title={meta_title}

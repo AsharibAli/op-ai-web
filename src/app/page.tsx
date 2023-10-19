@@ -7,7 +7,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
 import { Button, Feature } from "@/types";
 import { FaCheck } from "react-icons/fa/index.js";
-import Chat from "./homepage/page";
+import App from "./homepage/page";
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
   const testimonial = getListPage("sections/testimonial.md");
@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <>
-      <Chat />
+      <App />
       <SeoMeta />
       <section className="section pt-14">
         <div className="container">
