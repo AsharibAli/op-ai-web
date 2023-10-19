@@ -1,5 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
+import { BubbleChat } from "flowise-embed-react";
 
 // Dynamically import BubbleChat with SSR turned off
 const DynamicBubbleChat = dynamic(
