@@ -1,3 +1,4 @@
+// "use client";
 import ImageFallback from "@/helpers/ImageFallback";
 import { getListPage } from "@/lib/contentParser";
 import { markdownify } from "@/lib/utils/textConverter";
@@ -6,7 +7,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
 import { Button, Feature } from "@/types";
 import { FaCheck } from "react-icons/fa/index.js";
-
+import Chat from "./homepage/page";
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
   const testimonial = getListPage("sections/testimonial.md");
@@ -22,6 +23,7 @@ const Home = () => {
 
   return (
     <>
+      <Chat />
       <SeoMeta />
       <section className="section pt-14">
         <div className="container">
