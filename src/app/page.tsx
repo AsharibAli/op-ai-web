@@ -7,7 +7,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
 import { Button, Feature } from "@/types";
 import { FaCheck } from "react-icons/fa/index.js";
-import App from "./homepage/page";
+
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
   const testimonial = getListPage("sections/testimonial.md");
@@ -21,9 +21,18 @@ const Home = () => {
     features: Feature[];
   } = frontmatter;
 
+  const chatbotScript = `
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+    Chatbot.init({
+      chatflowid: "64ff8147-14ea-41e9-af99-ae8968c68d5c",
+      apiHost: "https://flowise-r1c3.onrender.com",
+    });
+  </script>
+`;
+
   return (
     <>
-      <App />
       <SeoMeta />
       <section className="section pt-14">
         <div className="container">
@@ -115,6 +124,9 @@ const Home = () => {
 
       <Testimonials data={testimonial} />
       <CallToAction data={callToAction} />
+
+      {/* Render the chatbot script */}
+      <div dangerouslySetInnerHTML={{ __html: chatbotScript }} />
     </>
   );
 };
