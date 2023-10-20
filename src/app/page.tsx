@@ -49,7 +49,7 @@ const Home = () => {
                   backgroundColor: "#f7f8ff",
                   textColor: "#303235",
                   showAvatar: true,
-                  avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png",
+                  avatarSrc: "https://raw.githubusercontent.com/AsharibAli/op-ai-web/main/public/images/optimismai.jpeg",
               },
               userMessage: {
                   backgroundColor: "#3B81F6",
