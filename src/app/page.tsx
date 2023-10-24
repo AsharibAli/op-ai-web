@@ -20,54 +20,54 @@ const Home = () => {
     features: Feature[];
   } = frontmatter;
 
-  //   const chatbotScript = `
-  //   <script type="module">
-  //   import Chatbot from "https://cdn.jsdelivr.net/gh/AsharibAli/FlowiseChatEmbed@latest/dist/web.js"
-  //   Chatbot.init({
-  //       chatflowid: "64ff8147-14ea-41e9-af99-ae8968c68d5c",
-  //       apiHost: "https://flowise-r1c3.onrender.com",
-  //       chatflowConfig: {
-  //           // topK: 2
-  //       },
-  //       theme: {
-  //           button: {
-  //               backgroundColor: "#3B81F6",
-  //               right: 20,
-  //               bottom: 20,
-  //               size: "medium",
-  //               iconColor: "white",
-  //               customIconSrc: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg",
-  //           },
-  //           chatWindow: {
-  //               welcomeMessage: "Welcome to the Optimism AI Chatbot! I'm here to assist you with any questions you have about the Optimism blockchain & It's Ecosystem.",
-  //               backgroundColor: "#ffffff",
-  //               height: 700,
-  //               width: 400,
-  //               fontSize: 16,
-  //               poweredByTextColor: "#303235",
-  //               botMessage: {
-  //                   backgroundColor: "#f7f8ff",
-  //                   textColor: "#303235",
-  //                   showAvatar: true,
-  //                   avatarSrc: "https://raw.githubusercontent.com/AsharibAli/op-ai-web/main/public/images/optimismai.jpeg",
-  //               },
-  //               userMessage: {
-  //                   backgroundColor: "#3B81F6",
-  //                   textColor: "#ffffff",
-  //                   showAvatar: true,
-  //                   avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
-  //               },
-  //               textInput: {
-  //                   placeholder: "Type your question",
-  //                   backgroundColor: "#ffffff",
-  //                   textColor: "#303235",
-  //                   sendButtonColor: "#3B81F6",
-  //               }
-  //           }
-  //       }
-  //   })
-  // </script>
-  // `;
+  const chatbotScript = `
+    <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/gh/AsharibAli/FlowiseChatEmbed@latest/dist/web.js"
+    Chatbot.init({
+        chatflowid: "64ff8147-14ea-41e9-af99-ae8968c68d5c",
+        apiHost: "https://flowise-r1c3.onrender.com",
+        chatflowConfig: {
+            // topK: 2
+        },
+        theme: {
+            button: {
+                backgroundColor: "#3B81F6",
+                right: 20,
+                bottom: 20,
+                size: "medium",
+                iconColor: "white",
+                customIconSrc: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg",
+            },
+            chatWindow: {
+                welcomeMessage: "Welcome to the Optimism AI Chatbot! I'm here to assist you with any questions you have about the Optimism blockchain & It's Ecosystem.",
+                backgroundColor: "#ffffff",
+                height: 700,
+                width: 400,
+                fontSize: 16,
+                poweredByTextColor: "#303235",
+                botMessage: {
+                    backgroundColor: "#f7f8ff",
+                    textColor: "#303235",
+                    showAvatar: true,
+                    avatarSrc: "https://raw.githubusercontent.com/AsharibAli/op-ai-web/main/public/images/optimismai.jpeg",
+                },
+                userMessage: {
+                    backgroundColor: "#3B81F6",
+                    textColor: "#ffffff",
+                    showAvatar: true,
+                    avatarSrc: "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
+                },
+                textInput: {
+                    placeholder: "Type your question",
+                    backgroundColor: "#ffffff",
+                    textColor: "#303235",
+                    sendButtonColor: "#3B81F6",
+                }
+            }
+        }
+    })
+  </script>
+  `;
 
   return (
     <>
@@ -164,7 +164,7 @@ const Home = () => {
       <CallToAction data={callToAction} />
 
       {/* Render the chatbot script */}
-      {/* <div dangerouslySetInnerHTML={{ __html: chatbotScript }} /> */}
+      <div dangerouslySetInnerHTML={{ __html: chatbotScript }} />
     </>
   );
 };
