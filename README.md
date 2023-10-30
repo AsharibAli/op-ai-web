@@ -12,6 +12,7 @@
 
 ## 📌 Key Features
 
+- 👉 Optimism AI project details.
 - 📄 Custom AI ChatBOT
 - 🎯 Similar Posts Suggestion
 - 🔍 Search Functionality
