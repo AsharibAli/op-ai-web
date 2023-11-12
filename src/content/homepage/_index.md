@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Unleash the real power of Web3 & AI with Optimism AI natively for optimism blockchain and It's Ecosystem"
-  content: "Dive deep into the vibrant world of the Optimism Blockchain with Optimism AI (Currently on fine-tuning phase, but you can try!)"
+  content: "Dive deep into the vibrant world of the Optimism Blockchain with Optimism AI, We offer two chatbots for your exploration. One is accessible directly on this website — simply click the message icon located at the bottom left side. The other, a comprehensive ChatBOT, is hosted on our chat domain. It's currently in the fine-tuning phase, but we invite you to give it a try!"
   image: "/images/banner.png"
   button:
     enable: true
