@@ -24,7 +24,7 @@ const Home = () => {
     <script type="module">
     import Chatbot from "https://cdn.jsdelivr.net/gh/AsharibAli/FlowiseChatEmbed@latest/dist/web.js"
     Chatbot.init({
-        chatflowid: "64ff8147-14ea-41e9-af99-ae8968c68d5c",
+        chatflowid: "81c22979-bd0a-42ec-a369-beb0739908c7",
         apiHost: "https://flowise-r1c3.onrender.com",
         chatflowConfig: {
             // topK: 2
