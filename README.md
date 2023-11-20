@@ -3,7 +3,6 @@
 <p align=center>Crafted with state-of-the-art AI capabilities, intertwined with the robust infrastructure of Web3, this groundbreaking project aims to demystify the intricate web of the Optimism Blockchain.
 </p>
 
-<p align=center>Made with ♥ by<a href="https://asharib.xyz/"> Asharib Ali</a></p>
 <p align=center> If you find this project useful, please give it a ⭐ to show your support. </p>
 
 <h2 align="center"> <a target="_blank" href="https://www.op-ai.xyz/" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-www-op-ai-xyz/ekcvv5ruf9?form_factor=desktop">Page Speed (100%)🚀</a>
