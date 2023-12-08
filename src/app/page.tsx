@@ -39,7 +39,7 @@ const Home = () => {
                 customIconSrc: "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg",
             },
             chatWindow: {
-                welcomeMessage: "Welcome to the Optimism AI Chatbot! I'm here to assist you with any questions you have about the Optimism blockchain & It's Ecosystem.",
+                welcomeMessage: "Welcome to the Optimism AI Chatbot! I'm here to assist you with any questions you have about the Optimism blockchain & It's Ecosystem, (API LIMITS EXCEEDED).",
                 backgroundColor: "#ffffff",
                 height: 700,
                 width: 400,
