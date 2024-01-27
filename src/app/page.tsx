@@ -19,8 +19,6 @@ const Home = () => {
     banner: { title: string; image: string; content?: string; button?: Button };
     features: Feature[];
   } = frontmatter;
-
-
   return (
     <>
       <SeoMeta />
@@ -114,7 +112,6 @@ const Home = () => {
 
       <Testimonials data={testimonial} />
       <CallToAction data={callToAction} />
-
     </>
   );
 };
