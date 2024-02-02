@@ -1,4 +1,4 @@
-<h1 align=center>Nextjs + Tailwind CSS + TypeScript + Flowise</h1>
+<h1 align=center>Nextjs + Tailwind CSS + TypeScript</h1>
 
 <p align=center>Crafted with state-of-the-art AI capabilities, intertwined with the robust infrastructure of Web3, this groundbreaking project aims to demystify the intricate web of the Optimism Blockchain.
 </p>
@@ -12,7 +12,6 @@
 ## 📌 Key Features
 
 - 👉 Optimism AI project details.
-- 📄 Custom AI ChatBOT
 - 🎯 Similar Posts Suggestion
 - 🔍 Search Functionality
 - 🌑 White & Dark Mode
